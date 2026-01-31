@@ -1,0 +1,28 @@
+.page {
+  background-color: #eaedf1;
+  min-height: 100vh;
+  padding: 40px;
+  color: #222;
+}
+
+.title {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #333;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.footer { margin-top: auto; 
+  background-color: #0070f3; color: #fff; 
+  text-align: center; padding: 15px; }

@@ -1,0 +1,35 @@
+.header {
+  background-color: #2a3050;
+  padding: 16px;
+  text-align: center;
+}
+
+.header a {
+  margin: 0 15px;
+  color: #cbcbcb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #2a3050;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: auto;
+}

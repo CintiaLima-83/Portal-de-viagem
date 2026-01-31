@@ -1,0 +1,28 @@
+
+.hero {
+  background-color: #d7d9e0;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: url("https://a.cdn-hotels.com/gdcs/production187/d139/2751b722-0cdf-45bd-b1f3-04c3c56668cf.jpg") no-repeat center center; background-size: cover; position: relative;
+}
+
+.overlay {
+  text-align: center;
+  max-width: 600px;
+}
+
+.title {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+
