@@ -1,11 +1,4 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import Layout from "./components/Layout"; 
-
-export const metadata: Metadata = {
-  title: "Portal de Destinos",
-  description: "Descubra lugares incríveis para viajar",
-};
+import Layout from "./components/Layout";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
