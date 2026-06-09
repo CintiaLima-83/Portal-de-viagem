@@ -14,7 +14,7 @@ export const destinos: Destino[] = [
     id: "rio",
     nome: "Rio de Janeiro",
     imagem: "https://blog.123milhas.com/wp-content/uploads/2023/03/aniversario-do-rio-de-janeiro-conheca-quatro-curiosidades-sobre-a-cidade-conexao123.jpg",
-    descricao: "Praias incríveis e o Cristo Redentor.",
+    descricao: "Entre montanhas e mar, o Rio encanta com suas praias icônicas como Copacabana e Ipanema, o Cristo Redentor abraçando a cidade e uma vida cultural vibrante que mistura samba, carnaval e hospitalidade calorosa.",
     localizacao: "Brasil",
     preco: "R$ 2.500",
     avaliacao: "4.8"
@@ -23,7 +23,7 @@ export const destinos: Destino[] = [
     id: "paris",
     nome: "Paris",
     imagem: "https://th.bing.com/th/id/R.4e312752589af6f4da3d6cf28e2f9775?rik=6XvqwkBl8ue5ew&riu=http%3a%2f%2fphotos.wikimapia.org%2fp%2f00%2f03%2f67%2f44%2f20_full.jpg&ehk=tZ93i9NWQQUrD9mGvJIMN0tkrsdq1m1xzNI%2bJhdcGys%3d&risl=&pid=ImgRaw&r=0",
-    descricao: "A cidade luz e a Torre Eiffel.",
+    descricao: "A cidade luz, onde a elegância se encontra com a arte: a Torre Eiffel, o charme das margens do Sena, museus renomados como o Louvre e uma atmosfera romântica que conquista viajantes do mundo inteiro.",
     localizacao: "França",
     preco: "€ 3.200",
     avaliacao: "4.9"
@@ -32,7 +32,7 @@ export const destinos: Destino[] = [
     id: "tokyo",
     nome: "Tóquio",
     imagem: "https://images.ctfassets.net/rc3dlxapnu6k/28GKCKhVuJ909lfbAJFORf/581e1461667b686e3863a8cac6e05009/Japan__Tokio__3_.jpg?w=2309&h=1299&fl=progressive&q=50&fm=jpg",
-    descricao: "Tecnologia e tradição lado a lado.",
+    descricao: "Um encontro fascinante entre tradição e modernidade: templos históricos convivem com tecnologia de ponta, bairros futuristas como Shibuya e Shinjuku, além de uma culinária mundialmente reconhecida.",
     localizacao: "Japão",
     preco: "¥ 400.000",
     avaliacao: "4.7"
@@ -41,7 +41,7 @@ export const destinos: Destino[] = [
     id: "ny",
     nome: "Nova York",
     imagem: "https://uploads.grupodicas.com/2023/03/Vida-noturna-em-Nova-York.png",
-    descricao: "A cidade que nunca dorme.",
+    descricao: "A metrópole que nunca dorme, repleta de arranha-céus como o Empire State, a energia da Times Square, os espetáculos da Broadway e a diversidade cultural que transforma cada bairro em uma experiência única.",
     localizacao: "Estados Unidos",
     preco: "US$ 3.000",
     avaliacao: "4.6"
