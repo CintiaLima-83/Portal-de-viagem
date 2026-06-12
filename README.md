@@ -45,10 +45,10 @@ Adicione screenshots do projeto aqui:
 ![Home](./screenshots/Home.png)
 
 ### Destinos
-![Destinos](./screenshots/Destinos.png)
+![Destino](./screenshots/Destino.png)
 
 ### Detalhes
-![Detalhes](./screenshots/Detalhes.png)
+![Detalhe](./screenshots/Detalhe.png)
 
 ---
 
