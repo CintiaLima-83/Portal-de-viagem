@@ -1,56 +1,47 @@
 .page {
-  background-color: #fff;
-  min-height: 100vh;
-  padding: 40px;
-  color: #333;
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 20px;
 }
 
 .title {
-  font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 30px;
-}
-
-.text {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #555;
+  font-size: 3rem;
 }
 
 .form {
-  max-width: 600px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+  margin-top: 30px;
 
-.form label {
   display: flex;
   flex-direction: column;
-  font-size: 1rem;
-  color: #333;
+
+  gap: 20px;
 }
 
 .form input,
 .form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
+  padding: 14px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 10px;
+
   font-size: 1rem;
 }
 
 .button {
-  padding: 12px;
-  background: #213852;
-  color: #fff;
+  background: #0ea5e9;
+  color: white;
+
   border: none;
-  border-radius: 6px;
-  font-weight: 500;
+
+  padding: 14px;
+
+  border-radius: 10px;
+
   cursor: pointer;
-  transition: background 0.3s ease;
 }
 
 .button:hover {
-  background: #345b81;
+  background: #0284c7;
 }

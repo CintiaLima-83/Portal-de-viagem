@@ -1,28 +1,97 @@
-
 .hero {
-  background-color: #d7d9e0;
-  height: 80vh;
+  height: 90vh;
+  width: 100vw;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  background: url("https://a.cdn-hotels.com/gdcs/production187/d139/2751b722-0cdf-45bd-b1f3-04c3c56668cf.jpg") no-repeat center center; background-size: cover; position: relative;
+  background: url("https://images.unsplash.com/photo-1501785888041-af3ef285b470")
+    center/cover no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
 }
 
 .overlay {
+  position: relative;
+  z-index: 2;
   text-align: center;
-  max-width: 600px;
+  color: white;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px 14px;
+  border-radius: 999px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(8px);
 }
 
 .title {
-  font-size: 3rem;
-  color: #414040;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 16px;
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  color: #434141;
-  margin: 20px 0;
+  font-size: 16px;
+  color: #e2e8f0;
+  margin-bottom: 28px;
 }
 
+.actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.primaryButton {
+  background: #0ea5e9;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.primaryButton:hover {
+  background: #0284c7;
+  transform: translateY(-2px);
+}
+
+.secondaryButton {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+  transition: 0.2s;
+}
+
+.secondaryButton:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+    background-position: center;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}

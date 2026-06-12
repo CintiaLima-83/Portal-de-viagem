@@ -1,39 +1,32 @@
 .page {
+  max-width: 1200px;
+  margin: auto;
+
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 40px;
-  padding: 40px;
-  background-color: #fff;
-  min-height: 100vh;
-}
+  gap: 50px;
 
-.imageArea {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+  padding: 60px 20px;
 }
 
 .image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  width: 100%;
+  border-radius: 20px;
+
+  box-shadow:
+    0 15px 35px rgba(0,0,0,.15);
 }
 
-
 .textArea {
-  flex: 2;
+  flex: 1;
 }
 
 .title {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 20px;
-  color: #333;
 }
 
 .text {
-  font-size: 1.1rem;
-  line-height: 1.6;
+  line-height: 1.8;
   color: #555;
-  margin-bottom: 20px;
 }
