@@ -67,7 +67,7 @@ Acesse: http://localhost:3000
 
 🌐 Deploy
 
-👉 https://portal-de-viagem.vercel.app/
+👉 https://portal-de-viagem.vercel.app
 
 ✨ Funcionalidades
 Lista de destinos turísticos
