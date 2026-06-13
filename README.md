@@ -65,9 +65,9 @@ npm run dev
 
 Acesse: http://localhost:3000
 
-🌐 Deploy
 
-👉 https://portal-de-viagem.vercel.app/
+🌐 Deploy
+Aplicação disponível em: https://portal-de-viagem.vercel.app/
 
 ✨ Funcionalidades
 Lista de destinos turísticos
